@@ -29,6 +29,7 @@ main section {
 
 #background {
     height: 725px;
+   background-color: blue;
 }
 body {
     background-color: powderblue;
