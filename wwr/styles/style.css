@@ -1,14 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=IBM+Plex+Mono:wght@100&family=Libre+Baskerville&family=Permanent+Marker&display=swap');
+
+
 div {
     max-width: 1600px;
     margin: 0 auto;
     background-color: powderblue;
+    font-size: 22px;
+    font-family:'Libre Baskerville','Domine', sans-serif ;
+    margin: 0;
+    padding: 0;
     }
 
+h2{
+    margin: 0;
+}
+
 nav a{ 
+    padding: 35px;
     text-decoration: none;
     color: blue;
     text-align: center
-    
+
 }
 
 #hero-msg h1 {
@@ -45,11 +58,19 @@ nav a:hover {
     background-color:yellow;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: yellow;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: blue;
@@ -63,18 +84,25 @@ nav a:hover {
 
 .msg{
     background-color: lightblue;
-
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: lightblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4{
     color:blue
 }
 .msg h2{
+    font-family: 'IBM Plex Mono', 'Domine', Verdana ;
     color:blue
+    
 }
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
     color:blue
 }
 footer h3{
@@ -91,6 +119,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -98,4 +127,40 @@ footer a:hover{
 
 footer h3 a:hover{
     text-decoration: underline;
+}
+
+.home-title{
+    font-family:'Permanent Marker', sans-serif,arial ;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+
+footer .social img{
+    padding-top: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid blue;
+}
+
+main section img {
+    box-sizing: border-box;
 }
