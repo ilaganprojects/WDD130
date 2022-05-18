@@ -6,10 +6,7 @@ div {
     max-width: 1600px;
     margin: 0 auto;
     background-color: powderblue;
-    font-size: 22px;
-    font-family:'Libre Baskerville','Domine', sans-serif ;
-    margin: 0;
-    padding: 0;
+    
     }
 
 h2{
@@ -46,6 +43,11 @@ main section {
 }
 body {
     background-color: powderblue;
+    font-size: 22px;
+    font-family:'Libre Baskerville','Domine', sans-serif ;
+    margin: 0;
+    padding: 0;
+    
 }
 header {
     background-color: yellow;
@@ -88,7 +90,7 @@ nav a:hover {
     padding: 35px;
 }
 footer{
-    background-color: lightblue;
+    background-color:lightblue;
     padding: 25px 50px;
     margin-top: 200px;
 }
