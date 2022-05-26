@@ -133,7 +133,7 @@
   height: 150px; 
   background-color: green; 
   grid-column: 2/3;
-  grid-row: 2;
+  grid-row: 1;
   
 } 
 .yellow4 {
@@ -141,7 +141,7 @@
   height: 150px; 
   background-color: gold; 
   grid-column: 2/3;
-  grid-row: 1;
+  grid-row: 2;
 
 } 
 .blue4 {
