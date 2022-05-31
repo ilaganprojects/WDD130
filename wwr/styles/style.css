@@ -3,9 +3,9 @@
 
 
 div {
-    max-width: 1600px;
     margin: 0 auto;
     }
+
 
 h2{
     margin: 0;
@@ -17,6 +17,9 @@ nav a{
     color: blue;
     text-align: center
 
+}
+#content{
+    max-width: 1600px;
 }
 
 #hero-msg h1 {
