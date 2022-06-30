@@ -192,7 +192,8 @@ nav a:hover {
     
     .origin-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #191516;
+        margin-left: 130px;
     }
     .pressure-card, .moore-card { 
         margin: 50px auto;
