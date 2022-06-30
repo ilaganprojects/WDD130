@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@500&family=Spline+Sans+Mono:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+/*index*/
+
+
+
+body {
+    background-color: #f3fcf0;
+    
+    font-family:"Roboto Mono","Spline Sans Mono", sans-serif ;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+
+}
+
+
+#content{
+    max-width: 1600px;
+}
+
+.card-img{
+    width: 100%;
+    border: 10px solid #ab2346;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364 ;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+footer{
+    background-color:#ab2346;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
+}
+footer h3{
+    color:#191516
+}
+
+footer a{
+    text-decoration: none;
+    color:#191516 
+}
+
+footer a:hover{
+    color:#f3fcf0 
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+header {
+    background-color: #ab2346;
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    padding-right: 30px;
+   
+}
+
+.logo{
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.moore-card{
+    margin: 200px 0;
+    grid-column: 6/10;
+    grid-row: 3/6;
+    margin-right: -80px;
+}
+
+.moore-msg{
+    background-color: #a4303f;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/5;
+    grid-row: 4;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+.moore-msg h2,.moore-msg p{
+    color: azure;
+}
+nav a{ 
+    padding: 6em;
+    min-width: 120px;
+    text-decoration: none;
+    color: #191516;
+    padding: 50px;
+
+}
+nav a:hover {
+    background-color: #a4303f;
+    color:#191516 ;
+}
+
+#origin{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#origin-msg {
+    font-size: 22px;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    margin-top: 80px;
+    
+}
+
+.origin-title{
+    font-family:"Titillium Web", sans-serif,arial ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.pressure-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    
+}
+
+.pressure-card{
+    margin: 200px 0;
+    grid-column: 2/6;
+    grid-row: 1/4;
+    margin-left: -100px;
+}
+
+.pressure-msg{
+    background-color: #a4303f;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/10;
+    grid-row: 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.pressure-msg p{
+    color: azure;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    #origin, .pressure-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #origin {
+        margin-top: 100px;
+    }
+    #origin-msg {
+        margin-top: 0;
+    }
+    
+    .origin-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .pressure-card, .moore-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+  
+    footer {
+        margin-top: 25px;
+    }
+}
