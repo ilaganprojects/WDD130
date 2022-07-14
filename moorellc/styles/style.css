@@ -40,12 +40,12 @@ footer{
     max-width: 1600px;
 }
 footer h3{
-    color:#191516
+    color:white
 }
 
 footer a{
     text-decoration: none;
-    color:#191516 
+    color:white
 }
 
 footer a:hover{
@@ -61,14 +61,16 @@ footer .social img{
 }
 
 header {
+    
     background-color: #ab2346;
     font-size: 28px;
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
     padding-right: 30px;
-   
+    
 }
+
 
 
 .logo{
@@ -109,13 +111,13 @@ nav a{
     padding: 6em;
     min-width: 120px;
     text-decoration: none;
-    color: #191516;
+    color: white;
     padding: 50px;
 
 }
 nav a:hover {
     background-color: #a4303f;
-    color:#191516 ;
+    color:white ;
 }
 
 #origin{
